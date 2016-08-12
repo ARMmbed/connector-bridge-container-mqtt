@@ -13,11 +13,9 @@ Container Bridge Instance Installation:
 
 2). cd into the cloned repo and run: ./run-reload-bridge.sh
 
-3). invoke: ./start-bridge.sh
+3). Next go to https://connector.mbed.com and create your mbed Connector Account
 
-4). Next go to https://connector.mbed.com and create your mbed Connector Account
-
-5). Once your Connector account is created, you need to "Access Keys" to create an API Key/Token
+4). Once your Connector account is created, you need to "Access Keys" to create an API Key/Token
 
 Now that you have your:
 
