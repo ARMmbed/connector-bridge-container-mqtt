@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-MAINTAINER ARM <doug.anson@arm.com>
+MAINTAINER Doug Anson ARM <doug.anson@arm.com>
 EXPOSE 22/tcp
 EXPOSE 8234/tcp
 EXPOSE 28520/tcp
@@ -26,4 +26,3 @@ RUN chmod 700 /home/arm/update_hosts.sh
 RUN /home/arm/configure_instance.sh
 
 ENTRYPOINT [ "/home/arm/start_instance.sh" ]
-
