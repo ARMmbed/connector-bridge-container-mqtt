@@ -26,3 +26,4 @@ RUN chmod 700 /home/arm/update_hosts.sh
 RUN /home/arm/configure_instance.sh
 
 ENTRYPOINT [ "/home/arm/start_instance.sh" ]
+
